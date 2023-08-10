@@ -1,0 +1,452 @@
+
+/******************************* SECTION1 STYLING START *************************************/
+.section1 {
+    display: flex;
+    padding: 2rem 4rem 0 4rem;
+    background: linear-gradient(90deg, #75CFFF 22.19%, rgba(117, 207, 255, 0.00) 68.54%);
+    border-radius: 0 0 0 16%;
+}
+
+form {
+    width: 470px;
+    height: 420px;
+    border-radius: 34px;
+    background: #FFF;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* align-items: center; */
+}
+
+form label {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+form input {
+    width: 299px;
+    height: 47px;
+    border-radius: 5px;
+    background: #E3E3E3;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+.check p {
+    color: #2F2F2F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+form button {
+    width: 236px;
+    height: 42px;
+    border-radius: 6px;
+    background: #138ED1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+.offer {
+    background: #00A6FF;
+    color: #fff;
+    border-radius: 35px;
+    padding-right: 1rem;
+    width: 580px;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    transform: translateY(11px);
+}
+
+.responsive .offer {
+    display: flex;
+    width: 312px;
+    height: 55px;
+    padding: 8px 0px 3px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00486C;
+}
+
+.responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.responsive .offerPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 33px;
+    background-color: #00A6FF;
+    color: #FFF;
+    border-radius: 35px;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.illustration img {
+    width: 450px;
+    height: 350px;
+    margin-top: 2rem;
+    transform: rotate(0deg);
+}
+/******************************* SECTION1 STYLING END *************************************/
+
+/******************************* SECTION2 STYLING START *************************************/
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.highlight img {
+    width: 60px;
+    height: 66px;
+    border-radius: 100%;
+}
+
+.achieved {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 3rem;
+}
+
+.achieved .a {
+    width: 151px;
+    height: 79px;
+    background-color: #138ED1;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.a p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************************* SECTION 3 STYLING START *************************************/
+
+.catalogue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.catalogue .cl {
+    width: 353px;
+    height: 339px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cl label {
+    color: #2F2F2F;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.NoReviews {
+    color: #6E6E6E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.tests {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.mrp {
+    color: #6E6E6E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.catalogue button {
+    width: 264px;
+    height: 43px;
+    border-radius: 6px;
+    background: #008DD9;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+.newPrice {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.slider {
+    position: absolute;
+    right: 0.5rem;
+    fill: #FFF;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderArrow {
+    width: 50px;
+    height: 13px;
+    stroke-width: 3px;
+    stroke: #2F2F2F;
+    position: absolute;
+}
+/******************************* SECTION 3 STYLING ENDS *************************************/
+
+/******************************* SECTION 4 STYLING START *************************************/
+.section4 {
+    background-color: #00A6FF17;
+    padding: 0 2rem;
+    height: 800px;
+}
+
+center h1 {
+    font-size: 48px;
+}
+
+center p {
+    width: 70vw;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6E6E6E;
+}
+
+.doctorImg {
+    width: 450px;
+    height: 665px;
+    float: right;
+    z-index: 1;
+}
+
+.watermark {
+    position: relative;
+    font-size: 10vw;
+    color: #84CFED40;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.outline {
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+}
+
+.card {
+    width: 320px;
+    height: 220px;
+    border-radius: 33px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+}
+
+.cardSet {
+    gap: 3rem;
+    display: flex;
+    position: absolute;
+    left: 8rem;
+    z-index: 99;
+    top: 107rem;
+}
+
+.cardsSet1,
+.cardsSet2 {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+}
+
+.cardsSet2 {
+    margin-top: 3rem;
+}
+
+
+.card label {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    display: block;
+    width: 214px;
+    line-height: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2F2F2F;
+    margin-top: 13px;
+}
+
+.cardLogo {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border: 3px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: absolute;
+    transform: translate(173px, -77px);
+}
+/******************************* SECTION 4 STYLING ENDS *************************************/
+
+
+.section2 center span::after,
+.section3 center span::after,
+.section4 center span::after,
+.illustration center span::after,
+.responsive center span::after {
+    display: inline-flex;
+    content: '';
+    height: 5px;
+    width: 120px;
+    background-color: #008DD9;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -10rem;
+}
+
+.responsive center span::after {
+    width: 169px;
+    background-color: #008DD9;
+    position: absolute;
+    margin-top: 2.4rem;
+    margin-left: -10.5rem;
+}
+
+.section4 center span::after {
+    width: 155px;
+}
+
+.section3 center span::after {
+    width: 100px;
+    margin-left: -11.5rem;
+    margin-top: 4rem;
+}
+
+.illustration center span::after {
+    width: 270px;
+    margin-left: -17rem;
+}
+
+.responsiveCards {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rCard {
+    width: auto;
+    height: 77px;
+    border-radius: 38.5px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: none;
+}
+
+.more {
+    display: none;
+}
+

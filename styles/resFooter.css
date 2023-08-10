@@ -1,0 +1,23 @@
+@media screen and (max-width: 1302px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phn {
+        display: none;
+    }
+
+    .right {
+        gap: 3rem;
+        justify-content: center;
+        padding-left: 0;
+    }
+     
+    label{
+        font-size: 16px;
+    }
+    .right li {
+        font-size: 10px;
+    }
+}

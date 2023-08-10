@@ -1,0 +1,68 @@
+nav {
+    display: flex;
+    padding: 1.3rem 0rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+}
+
+.logo {
+    display: flex;
+}
+
+img {
+    height: 2rem;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.responsiveHam {
+    display: none;
+}
+
+.users {
+    display: flex;
+    gap: 1rem;
+}
+
+.users button {
+    background: #00486C;
+    border: transparent;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: .5em 1em;
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.appStore button {
+    background: #333333;
+    border: transparent;
+    color: white;
+    padding: .0em 1em;
+    width: fit-content;
+    border-radius: 5px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 0.7rem;
+}
+
+button {
+    cursor: pointer;
+}

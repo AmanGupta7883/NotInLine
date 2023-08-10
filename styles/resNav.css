@@ -1,0 +1,11 @@
+@media screen and (max-width: 1302px){
+    .nav-items, .appStore button{
+        display: none;
+    }
+    nav{
+        padding: 0.5rem 0;
+    }
+     .responsiveHam{
+        display: block;
+     }
+}
